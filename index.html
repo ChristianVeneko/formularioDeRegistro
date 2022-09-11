@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="https://sheetdb.io/api/v1/nkq200e64e62b" method="post" id="sheetdb-form" style="border:1px solid #ccc">
+        <div class="container">
+          <h1 class="titulo">Sign Up</h1>
+          <p class="subtitlo">Por favor llena este formulario para registrarte.</p>
+          <hr>
+      
+          <label for="data[email]"><b>Correo</b></label>
+          <input type="text" placeholder="Enter Email" name="data[email]" required>
+      
+          <label for="data[psw]"><b>Contraseña</b></label>
+          <input type="password" placeholder="Enter Password" name="data[psw]" required>
+      
+          <label for="data[pswrepeat]"><b>Repetir Contraseña</b></label>
+          <input type="password" placeholder="Repeat Password" name="data[pswrepeat]" required>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+      
+          <p>Al crear esta cuenta aceptas los terminos y condiciones <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancelar</button>
+            <button type="submit" class="signupbtn">Registrarme</button>
+          </div>
+        </div>
+      </form>
+    
+</body>
+</html>
