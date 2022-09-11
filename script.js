@@ -9,7 +9,4 @@ form.addEventListener("submit", e=>{
     ).then((html) =>{
         window.open('d.html', '_blank');
     })
-
-        
-
 })
